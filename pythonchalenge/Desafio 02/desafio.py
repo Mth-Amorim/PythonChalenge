@@ -48,3 +48,26 @@ for letra in texto_inicial:
 print(Texto_novo)
 
 
+url = 'MAP'
+Texto_novo = ""
+for letra in url:
+    letra_antiga = ord(letra)
+    if letra_antiga>=65 and letra_antiga<=90:
+        letra_nova = (letra_antiga - 65 + 2) % 26 + 65
+        Texto_novo = Texto_novo + chr(letra_nova)
+    else:
+        Texto_novo = Texto_novo + letra
+print(Texto_novo)
+
+
+# Resolução official da agina 
+import string
+
+texto_inicial = '''
+g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj.
+'''
+
+tabela = str.maketrans(string.ascii_lowercase, string.ascii_lowercase[2:] + string.ascii_lowercase[:2])
+texto_criptografado = texto_inicial.translate(tabela)
+
+print(texto_criptografado)
