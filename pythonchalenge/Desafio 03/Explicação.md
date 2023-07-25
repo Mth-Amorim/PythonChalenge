@@ -19,3 +19,5 @@ Após criar um dicionario contando cada um dos caracteres surgiram alguns caract
 E como foram gravando no dicionario na ordem em que apareceram tambem ficou a ordem formando apalavra equality. 
 
 Poerem Ainda fica uma questão qual seira a ordem correta das letras .. ou com oidentificar peo problema que eu preciso somente das letras e na ordem e que elas aparecem.... cmo não ficou definido esses pontos a sensação é que foi sorte a resolulção desse desafio e não tecnica. 
+
+Link do proximo desafio : http://www.pythonchallenge.com/pc/def/equality.html 
