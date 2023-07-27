@@ -24,3 +24,8 @@ Mesmo assim ainda continuamos com varias opções...
 Olhando para a tela tem uma enfase na palavra exactily o que me leva a poensa se quando a leta minuscula tiver mais que 3 Maiusculas em sua volta se ela seria descartada ... vamos apatar isso 
 
 A Tentativa 02 resultou em uma palavra linkedlist 
+
+Link do desafio : http://www.pythonchallenge.com/pc/def/linkedlist.html 
+
+<b>Após ler as resoluções</b>
+Meu copdigo ficou com varios if's na sua construção sendo que existe uma possibilidade de resolver o problema com expressões regulares ... luma forma de "pesquisar" um conteudo com condições expecificas que eu queria achei a implementação muito boa 
