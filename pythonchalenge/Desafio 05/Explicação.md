@@ -1,25 +1,34 @@
-# # Explicação desafio 04 
+# # Explicação desafio 06
 
 ## O que aparece na tela 
-1) Uma imagens com dois bonecos de madeira cerrando alguma coisa 
-2) A imagem tem um link quando clicamos nele ele vai poara uma pagina escrito : 
-"and the next nothing is 44827"
-3) ao acessar o fonte da pagina tem a seguinte menssagem : 
-<!-- urllib may help. DON'T TRY ALL NOTHINGS, since it will never 
-end. 400 times is more than enough. -->
+1) ?Uma imagem de uma montanha me lembrou um pouco o windowns XP rsrs 
+2) Esta escrito abaixo Pronounce it
+3) No codigo fonte tem uma tag esquisita fora da imagem ma tag escrita como peekhell 
+não reconheci essa tag HTML e conferi ela não existe 
 
 ## Resolução: 
-Acredito que tenha que ir testando as urls até encontrar a que seja valida. 
-Testar uma a uma provavelmente vou demorar um ano fazendo acredito que o numero no fim  seja referente a proxima pagina e tenho que ficar nisso até finalizar ... vamos tentar 
 <b>Tentativa 01</b>
-Exectei um for de 0 a 400 mas não completou o desafio...
-Troque o For por um while que roda infinitamente até não ter mais numeros nas pagonas o tempo de execução é de aproximadamente 40segundos. 
+ao acessar a URL : 
+http://www.pythonchallenge.com/pc/def/banner.p 
 
-Quase deu crto só que tem uma pagina que informa a menssagem : 
-Yes. Divide by two and keep going.
+Temos uma seguencia de letras e numeros e caracteres especiais 
+Depóis horas pesquisando não consegui chegar a uma conclusão de como fazer entãoinicei o viedo no youtube sobre a reolução do desafio  
+Link do video :  https://www.youtube.com/watch?v=FC-AICcnZrs
+Assisti ele aproximadamente 2 minutos até entender que peekhell tem a pronuncia parecida com pickle que é um modo para serializar informações
 
-Uma coisa o codigo precisou de remoldes e adpataões mas baseado em erro e fracasso e sim que o desafio exigia adptabilidade do godigo mas chegei no link final 
+Como não era uma biblioteca que eu dominava parei uum moneto para estudar https://www.youtube.com/watch?v=wuKVLbM2ins 
 
-http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=66831
+Após deserializar percebo que na verdade tme uma lista confesso que ainda naõ entendi muito bem o que esa lista representa 
+São sempre tuplas com um caracter e um numero ... 
+
+Identifiquei um ponto interessante .... Tuodas as tuplas dentro da lista chegan a um valor de 95.... imagino que seja uma Quantidade
+Vou tentar printar os caracteres  nas quantidades informadas 1º ua lista em cada linha 
+
+dando print em cada linha escreveu uma paçava a paçlava channel 
+
+
+<b>Tentativa 02</b>
+
+<b>Tentativa 03</b>
 
 <b>Após ler as resoluções</b>

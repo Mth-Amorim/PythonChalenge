@@ -1,23 +1,31 @@
-# Explicação Desafio 03
+# # Explicação desafio 04 
 
-## O que foi passado 
-1) Tem uma imagem de um livro n~çao da pra ler ( pegadinha com o titulo da pagina OCR rsrs 
-2) abaixo da imagem tem um texto que diz que poe estar no livro ou no fonte 
+## O que aparece na tela 
+1) Uma imagens de velas 
+2) um Texto informndo : 
+"Uma letra pequena, sercada por EXATAS 3 grandes guardacostas de cada lado" 
 
-## Resolução 
-Aparentemente tem alguma coisa escondida dentro do codigo fonte da pagina vamos averiguar primerio o que tem no HTML da pagina 
+## Resolução: 
+<b>Tentativa 01</b>
+Considerando o desafio anterior que tinhamos um texto no fonte vamos tentar abrir o fonte. 
 
-Ao analisar o fonte tem a seguinte menssagem : 
-Find rare characters in the mess below : 
+Realmente tem um texto no fonte 
 
-E em seguinda passauma seguencia de caracteres 
+não entendi a imagem acredito que tem alguma coisa com as velas 
+poerem no texto que tem no fonte tem somente letras aleatorioas ... talvez então eu deva achar as letras que estão cercadas por 3 maisculas.. vmaos testar
 
-Vou verificar a quantidade de ocorrencias de cada caracter e identificar quais são os mais raros de aparecerem 
 
-Após criar um dicionario contando cada um dos caracteres surgiram alguns caracteres que coincidiram de aarecer uma unica vez.
+<b>Tentativa 02</b>
+Após testar ainda não chequei a uma conclusão vou tentar derivações eu fiz sequencial mas e se eu tiver que pular de 7 em 7 ? Vamos testar 
 
-E como foram gravando no dicionario na ordem em que apareceram tambem ficou a ordem formando apalavra equality. 
+Mesmo assim ainda continuamos com varias opções... 
 
-Poerem Ainda fica uma questão qual seira a ordem correta das letras .. ou com oidentificar peo problema que eu preciso somente das letras e na ordem e que elas aparecem.... cmo não ficou definido esses pontos a sensação é que foi sorte a resolulção desse desafio e não tecnica. 
+<b>Tentativa 03</b>
+Olhando para a tela tem uma enfase na palavra exactily o que me leva a poensa se quando a leta minuscula tiver mais que 3 Maiusculas em sua volta se ela seria descartada ... vamos apatar isso 
 
-Link do proximo desafio : http://www.pythonchallenge.com/pc/def/equality.html 
+A Tentativa 02 resultou em uma palavra linkedlist 
+
+Link do desafio : http://www.pythonchallenge.com/pc/def/linkedlist.html 
+
+<b>Após ler as resoluções</b>
+Meu copdigo ficou com varios if's na sua construção sendo que existe uma possibilidade de resolver o problema com expressões regulares ... luma forma de "pesquisar" um conteudo com condições expecificas que eu queria achei a implementação muito boa 
