@@ -1235,7 +1235,7 @@ for char in texto:
 print(dicionario.keys())
 
 # Segubnda tentativa após ler resposta de outros jogadores 
-# esse segundo for acaba por jáefeturar as contas dando mais legibilidade ao codgio
+# esse segundo for acaba por já efeturar as contas dando mais legibilidade ao codgio
 dicionario = {}
 for char in texto:
     if char not in dicionario.keys():
